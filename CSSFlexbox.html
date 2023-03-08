@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+.container
+{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+/* Iniyialize the container as a flexbox  */
+    display:flex;
+}
+.items
+{
+    background: tomato;
+    border:2px solid green;
+    margin: 10px;
+    padding: 3px;
+width: 200px;
+height: 200px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>This is a flexbox</h1>
+    <div class="container">
+    <div class="items" id="items-1">First box</div>
+    <div class="items" id="items-2">Second box</div>
+    <div class="items" id="items-3">Third box</div>
+    <div class="items" id="items-4">Fourth box</div>
+    <div class="items" id="items-5">Fifth box</div>
+    <div class="items" id="items-6">Sixth box</div>
+</div>
+</body>
+</html>
